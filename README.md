@@ -36,7 +36,7 @@ contained in this repository. Good work!
 * Basic operators and comparisons
 
 > Chapter from 2.1 to 2.9 [JavaScript.info](https://javascript.info/)
-> 
+
 > Exercises:
 
 ### [03.2] Logical structures
@@ -45,7 +45,7 @@ contained in this repository. Good work!
 * Loop constructs
 
 > Chapter from 2.10 to 2.14 [JavaScript.info](https://javascript.info/)
->
+
 > Exercises:
 
 ### [03.3] Functions
@@ -55,7 +55,7 @@ contained in this repository. Good work!
 * Arrow function
 
 > Chapter from 2.15 to 2.17 [JavaScript.info](https://javascript.info/)
->
+
 > Exercises:
 
 ### [03.4] Objects
@@ -66,7 +66,7 @@ contained in this repository. Good work!
 * Garbage collector
 
 > Chapter from 4.1 to 4.8 [JavaScript.info](https://javascript.info/)
->
+
 > Exercises:
 
 ### [03.5] Data types and arrays
@@ -77,7 +77,7 @@ contained in this repository. Good work!
 * JSON
 
 > Chapter from 5.1 to 5.7, 5.12 [JavaScript.info](https://javascript.info/)
->
+
 > Exercises:
 
 ### [03.6] Error handling and modules
@@ -86,7 +86,7 @@ contained in this repository. Good work!
 * Modules import/export
 
 > Chapter 10 and 13 [JavaScript.info](https://javascript.info/)
->
+
 > Exercises:
 
 ## 04 - NodeJS - the server-side development
