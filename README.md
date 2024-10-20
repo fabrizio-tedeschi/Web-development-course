@@ -37,16 +37,16 @@ contained in this repository. Good work!
 
 > Chapter from 2.1 to 2.9 [JavaScript.info](https://javascript.info/)
 
-> Exercises:
+> Exercises: [E01-fundamentals](./exercises/module-03/E01-fundamentals)
 
-### [03.2] Logical structures
+### [03.2] Logical constructs
 
 * Selection construct
 * Loop constructs
 
 > Chapter from 2.10 to 2.14 [JavaScript.info](https://javascript.info/)
 
-> Exercises:
+> Exercises: [E02-logical-structures](./exercises/module-03/E02-logical-constructs)
 
 ### [03.3] Functions
 
@@ -56,7 +56,7 @@ contained in this repository. Good work!
 
 > Chapter from 2.15 to 2.17 [JavaScript.info](https://javascript.info/)
 
-> Exercises:
+> Exercises: [E03-functions](./exercises/module-03/E03-functions)
 
 ### [03.4] Objects
 
@@ -67,18 +67,17 @@ contained in this repository. Good work!
 
 > Chapter from 4.1 to 4.8 [JavaScript.info](https://javascript.info/)
 
-> Exercises:
+> Exercises: [E04-objects](./exercises/module-03/E04-objects)
 
-### [03.5] Data types and arrays
+### [03.5] Data structures
 
-* Numbers and Strings
 * Array
 * Map
 * JSON
 
 > Chapter from 5.1 to 5.7, 5.12 [JavaScript.info](https://javascript.info/)
 
-> Exercises:
+> Exercises: [E05-data-structures](./exercises/module-03/E05-data-structures)
 
 ### [03.6] Error handling and modules
 
