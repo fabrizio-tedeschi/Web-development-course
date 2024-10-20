@@ -38,4 +38,5 @@ alert messages.
 Write a script that asks the user an integer number between 0 and 36. The script verifies if a random-generated number
 is equal to the user's number and shows the result using an alert message. 
 
->[!TIP] Search infos about `Math.random()`.
+>[!TIP]
+> Search infos about `Math.random()`.
