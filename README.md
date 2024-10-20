@@ -30,7 +30,7 @@ contained in this repository. Good work!
 
 ### [03.1] Fundamentals
 
-* Variables and data types
+* Variables, data types, Casting
 * Code structure
 * Interactions
 * Basic operators and comparisons
