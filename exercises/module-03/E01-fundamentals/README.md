@@ -22,12 +22,12 @@ results of the operation below:
 
 * `a + b`, `a - b`
 * `a * b`, `a^b`
-* `a / b`, show also the division reminder ad the integer result.
+* `a / b`, show also the division reminder and the integer result.
 
 >[!TIP]
 > Search infos about `Math.ceil() and Math.floor()`.
 
-### C) equation-solver
+### C) equationSolver
 
 Write a script that takes three values `a`, `b`, `c`. These values represent coefficient of a 2nd
 degree equation. The script checks if `a != 0` and calculates the value of delta and the solutions. Show results using

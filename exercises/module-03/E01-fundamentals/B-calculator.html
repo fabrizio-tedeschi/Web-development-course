@@ -1,0 +1,32 @@
+<html>
+<head>
+    <script>
+        //Data input
+        let a = prompt("Insert first number:");
+        let b = prompt("Insert second number: ");
+
+        //Data casting to numbers
+        a = Number(a);
+        b = Number(b);
+
+        //Operations
+        let sum = a + b;
+        let sub = a - b;
+        let prod = a * b;
+        let div = a / b;
+        div = Math.floor(div);
+        let reminder = a % b;
+
+        //Data output
+        let out = "a + b = " + String(sum) + "\na - b = " + String(sub);
+        alert(out);
+
+        out = "a * b = " + String(prod) + "\n a / b = " + String(div) + "\nReminder = " + String(reminder);
+        alert(out);
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E01 B-calculator</h1>
+</body>
+</html>

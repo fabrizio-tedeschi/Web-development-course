@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script>
+        //Data input and casting to numbers
+        let a = Number(prompt("Insert number A:"));
+        let b = Number(prompt("Insert number B:"));
+        let c = Number(prompt("Insert number C:"));
+
+        let delta = (b*b) - (4*a*c);
+
+        //Delta check and results output
+        if(delta < 0){
+            alert("Delta is lower than zero: NO real solutions!")
+        }
+        else if(delta === 0){
+            let sol = (b + Math.sqrt(delta)) / (2 * a);
+            alert("Two coincident solution x1 = x2 = " + String(sol));
+        }
+        else{
+            let x1 = (b + Math.sqrt(delta)) / (2 * a);
+            let x2 = (b - Math.sqrt(delta)) / (2 * a);
+            alert("x1 = " + String(x1) + "; x2 = " + String(x2));
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E01 C-equationSolver</h1>
+</body>
+</html>
