@@ -42,11 +42,11 @@ contained in this repository. Good work!
 ### [03.2] Logical constructs
 
 * Selection construct
-* Loop constructs
+* Loop constructs and break
 
 > Chapter from 2.10 to 2.14 [JavaScript.info](https://javascript.info/)
 
-> Exercises: [E02-logical-structures](./exercises/module-03/E02-logical-constructs)
+> Exercises: [E02-logical-constructs](./exercises/module-03/E02-logical-constructs)
 
 ### [03.3] Functions
 
