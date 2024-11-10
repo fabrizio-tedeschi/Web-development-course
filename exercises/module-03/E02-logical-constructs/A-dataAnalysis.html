@@ -1,0 +1,42 @@
+<html>
+<head>
+    <script>
+        //Data input
+        let n
+        do{
+            n = Number(prompt("Inserire un valore n > 0:"))
+        }while (n <= 0);
+
+        //Initialization with first input
+        let max, min, sum
+        let val = Number(prompt("Insert a numeric value:"));
+        max = val;
+        min = val;
+        sum = val;
+
+        //Searching max, min and total sum
+        for(let i = 1; i < n; i++){
+            val = Number(prompt("Insert a numeric value:"));
+
+            if(val > max){
+                max = val;
+            }
+
+            if(val < min){
+                min = val;
+            }
+
+            sum += val;
+        }
+
+        //Results output
+        let out = "MAX = " + String(max) + "\nMIN = " + String(min) + "\nAVERAGE = " + String(sum/n) + "\nN = " + String(n);
+        console.log(out);
+        alert(out);
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E02 A-dataAnalysis</h1>
+</body>
+</html>

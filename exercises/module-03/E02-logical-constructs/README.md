@@ -1,6 +1,6 @@
 # Exercises 03.2 - JavaScript logical constructs
 
-### A) data-analysis
+### A) dataAnalysis
 
 Write a script that takes a value `n > 0` and after that takes `n` integer values. The program calculates:
 * The max and the min value
@@ -15,11 +15,11 @@ The script has to show the result with an alert message and also ont the browser
 Write a script that takes three values `a`, `b`, `k`, then the program print on the browser console all values between
 `a` and `b` that are multiples of `k`.
 
-### C) sum-cyphers
+### C) sumCyphers
 
 Write a script that takes an integer positive value `n` greater than 100. The program prints on the console each cyphers of `n`.
 
-### D) to-decimal
+### D) toDecimal
 
 Write a script that takes a binary number (only 0 and 1 cyphers are allowed) and converts it into the associated
 decimal number. Show the result with an alert message. To iterate on the binary number cyphers treat the number as a string!

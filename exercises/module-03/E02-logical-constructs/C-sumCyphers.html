@@ -1,0 +1,24 @@
+<html>
+<head>
+    <script>
+        //Data input
+        let n;
+        do{
+            n = Number(prompt("Insert value N > 100:"));
+        }while(n <= 100);
+
+        let x = n;
+        let sum = 0;
+        while(x !== 0){
+            sum += x % 10;
+            x = Math.floor(x/10);
+        }
+
+        alert("The cyphers sum of " + String(n) + " is " + String(sum));
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E02 C-sumCyphers</h1>
+</body>
+</html>

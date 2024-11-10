@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script>
+        //Data input
+        let a = Number(prompt("Insert value A:"));
+        let b = Number(prompt("Insert value B:"));
+        let k = Number(prompt("Insert value K:"));
+
+        //Searching multiples between a and b
+        for(let i = a; i <= b; i++){
+            if(i !== 0 && i !== k && i % k === 0){
+                console.log("The number " + String(i) + " is multiple of " + String(k));
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E02 B-multiple</h1>
+    <p>Open CONSOLE to see results</p>
+</body>
+</html>
