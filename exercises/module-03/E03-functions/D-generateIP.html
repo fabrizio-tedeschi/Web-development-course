@@ -1,0 +1,40 @@
+<html>
+<head>
+    <script>
+        let generateIP = function(){
+            let n = document.getElementById("nb").value
+
+            if(Number.isInteger(Number(n)) && Number(n) > 0){
+                n = Number(n);
+            }
+            else{
+                alert("ERROR")
+                return null;
+            }
+
+            let IP, r1, r2, r3, r4;
+            for(let i = 0; i < n; i++){
+                r1 = Math.trunc(255*Math.random());
+                r2 = Math.trunc(255*Math.random());
+                r3 = Math.trunc(255*Math.random());
+                r4 = Math.trunc(255*Math.random());
+
+                IP = String(r1) + "." + String(r2) + "." + String(r3) + "." + String(r4);
+                console.log(IP);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E03 D-generateIP</h1>
+    <br>
+    <form>
+        <label for="nb">Number of IP addresses:</label><br>
+        <input type="text" id="nb" name="nb"><br>
+        <input type="button" value="Generate IP" onclick="generateIP()">
+    </form>
+    <br>
+    <p>Open console to see results</p>
+</body>
+</html>

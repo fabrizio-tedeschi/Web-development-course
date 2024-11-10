@@ -5,7 +5,7 @@
 Write a script that asks the user a positive value `n`. The scrip asks the user `n` positive numbers and shows
 the average. Create an `average()` function to solve the exercise.
 
-### B) signup-fields
+### B) signupFields
 
 Create a webpage with fields about user data (name, surname, age, email).
 When the user click on the "subscribe" button the `subscribe()` function is executed.
@@ -17,7 +17,7 @@ The `subscribe()` function:
 * Shows an alert message about successfully subscription in the other cases
 
 >[!TIP]
-> Search info about `document.getElementById()` and `isNaN()`
+> Search info about `document.getElementById()` and `Number.isInteger()`
 
 ## Function expression
 

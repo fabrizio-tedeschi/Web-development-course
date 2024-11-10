@@ -1,0 +1,31 @@
+<html>
+<head>
+    <script>
+        //Function definition
+        function average(){
+            let n
+            do{
+                n = Number(prompt("Insert Value n > 0:"))
+            }while (n <= 0);
+
+            let val, sum = 0;
+            let count = n;
+            do{
+                val = Number(prompt("Insert value:"))
+                sum += val;
+                count -= 1;
+            }while(count > 0);
+
+            return sum/n;
+        }
+
+        //Calling function
+        let avg = average();
+        alert("The average is " + String(avg));
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E03 A-Average</h1>
+</body>
+</html>

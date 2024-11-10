@@ -1,0 +1,35 @@
+<html>
+<head>
+    <script>
+        let checkEven = function(){
+            let n = document.getElementById("nb").value
+
+            if(Number.isInteger(Number(n))){
+                n = Number(n);
+            }
+            else{
+                alert("ERROR")
+                return null;
+            }
+
+            if(n % 2 === 0){
+                alert("Even number!");
+            }
+            else{
+                alert("Odd number!");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E03 C-checkEven</h1>
+    <br>
+    <form>
+        <label for="nb">Number:</label><br>
+        <input type="text" id="nb" name="nb"><br>
+
+        <input type="button" value="Check if even" onclick="checkEven()">
+    </form>
+</body>
+</html>
