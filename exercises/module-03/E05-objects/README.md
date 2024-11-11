@@ -1,4 +1,4 @@
-# Exercises 03.4 - JavaScript objects
+# Exercises 03.5 - JavaScript objects
 
 ### A)
 

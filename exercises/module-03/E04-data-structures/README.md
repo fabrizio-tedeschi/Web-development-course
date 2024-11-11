@@ -1,4 +1,4 @@
-# Exercises 03.2 - JavaScript data structures
+# Exercises 03.4 - JavaScript data structures
 
 ### A)
 
