@@ -58,7 +58,17 @@ contained in this repository. Good work!
 
 > Exercises: [E03-functions](./exercises/module-03/E03-functions)
 
-### [03.4] Objects
+### [03.4] Data structures
+
+* Array
+* Map
+* JSON
+
+> Chapter from 5.1 to 5.7, 5.12 [JavaScript.info](https://javascript.info/)
+
+> Exercises: [E04-data-structures](./exercises/module-03/E04-data-structures)
+
+### [03.5] Objects
 
 * Objects
 * Objects methods and constructor
@@ -67,17 +77,7 @@ contained in this repository. Good work!
 
 > Chapter from 4.1 to 4.8 [JavaScript.info](https://javascript.info/)
 
-> Exercises: [E04-objects](./exercises/module-03/E04-objects)
-
-### [03.5] Data structures
-
-* Array
-* Map
-* JSON
-
-> Chapter from 5.1 to 5.7, 5.12 [JavaScript.info](https://javascript.info/)
-
-> Exercises: [E05-data-structures](./exercises/module-03/E05-data-structures)
+> Exercises: [E05-objects](./exercises/module-03/E05-objects)
 
 ### [03.6] Error handling and modules
 
