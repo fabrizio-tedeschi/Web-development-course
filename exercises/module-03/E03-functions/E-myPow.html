@@ -1,0 +1,39 @@
+<html>
+<head>
+    <script>
+        let myPow = () => {
+            let b = Number(document.getElementById("b").value);
+            let e = Number(document.getElementById("e").value);
+
+            if(!Number.isInteger(b) || !Number.isInteger(e)){
+                alert("ERROR");
+                return null;
+            }
+
+            if(e === 0){
+                alert("myPow(" + String(b) + ", " + String(e) + ") returned: 1");
+                return 1;
+            }
+
+            let out = 1;
+            for(let i = 0; i < e; i++){
+                out *= b;
+            }
+            alert("myPow(" + String(b) + ", " + String(e) + ") returned: " + String(out));
+            return out;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Exercise E03 E-myPow</h1>
+    <br>
+    <form>
+        <label for="b">Base:</label><br>
+        <input type="text" id="b" name="b"><br>
+        <label for="e">Exponent:</label><br>
+        <input type="text" id="e" name="e"><br>
+        <input type="button" value="Calculate pow!" onclick="myPow()">
+    </form>
+</body>
+</html>
