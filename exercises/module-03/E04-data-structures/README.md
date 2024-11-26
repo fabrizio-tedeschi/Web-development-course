@@ -1,5 +1,8 @@
 # Exercises 03.4 - JavaScript data types
 
+>[!NOTE]
+>To start a js file on youre terminal you need to install nodeJS and execute the following command `node filename.js`
+
 ## Strings
 
 ### A) getRepeatedChars
@@ -10,7 +13,7 @@ occurrence of the char. For example:
 
 ```
 s1 = "hey world", s2 = "home", out = "heo"
-s1 = "hello world", s2 = "home land", out = "heo d"
+s1 = "hello world", s2 = "home land", out = "helo d"
 ```
 
 ### B) checkEmailManager
