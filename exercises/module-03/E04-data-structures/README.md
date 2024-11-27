@@ -18,9 +18,8 @@ s1 = "hello world", s2 = "home land", out = "helo d"
 
 ### B) checkEmailManager
 
-Write a function `checkEmailManager()` that takes an email from a document field and shows the name of the email manager.
-The function knows only three email manager, GOOGLE, MICROSOFT, APPLE. When the manager is unknown the function shows the
-final email segment. For example:
+Write a function `checkEmailManager()` that takes an email and shows the name of the email manager.
+The function knows only three email manager, GOOGLE, MICROSOFT, APPLE. When the manager is unknown the function shows the final email segment. For example:
 
 ```
 john.doe@gmail.com --> GOOGLE LLC
@@ -31,8 +30,7 @@ lebron.james@libero.it --> @libero.it
 
 ### C) onlyThreeMultiples
 
-Write a function `onlyThreeMultiples()` that takes a string `s` and shows a new `out` string composed only by chars from
-`s` that has multiple of 3 position. For example:
+Write a function `onlyThreeMultiples()` that takes a string `s` and shows a new `out` string composed only by chars from `s` that has multiple of 3 position. For example:
 
 ```
 s = "mystring", out = "tn"
