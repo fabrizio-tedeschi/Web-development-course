@@ -60,11 +60,12 @@ contained in this repository. Good work!
 
 ### [03.4] Data structures
 
+* String
 * Array
 * Map
 * JSON
 
-> Chapter from 5.1 to 5.7, 5.12 [JavaScript.info](https://javascript.info/)
+> Chapter from 5.1 to 5.7, 5.9, 5.12 [JavaScript.info](https://javascript.info/)
 
 > Exercises: [E04-data-structures](./exercises/module-03/E04-data-structures)
 
