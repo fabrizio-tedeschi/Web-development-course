@@ -4,17 +4,17 @@ function checkEmailManager(email){
         return "ERROR: invalid email";
     }
 
-    manager = email.slice(i);
+    manager = email.slice(i+1);
 
-    if("@gmail.com".localeCompare(manager) === 0){
+    if("gmail.com".localeCompare(manager) === 0){
         return "GOOGLE LLC"
     }
 
-    if("@outlook.com".localeCompare(manager) === 0){
+    if("outlook.com".localeCompare(manager) === 0){
         return "MICROSOFT CORP."
     }
 
-    if("@icloud.com".localeCompare(manager) === 0){
+    if("icloud.com".localeCompare(manager) === 0){
         return "APPLE INC."
     }
 
