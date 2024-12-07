@@ -12,6 +12,7 @@ let ages = [15, 18, 25, 34]
 ```
 
 Write a function `getAllStudentsData()` that takes an `ID` and shows all data associated to the student with the id `ID`.
+The function returns the student position in the array. When an error occurs the function returns -1.
 
 ### B) marketQueueManager
 

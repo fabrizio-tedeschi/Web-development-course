@@ -34,6 +34,3 @@ Write a function `onlyThreeMultiples()` that takes a string `s` and shows a new 
 s = "mystring", out = "tn"
 s = "mysecond string", out = "ensi"
 ```
-
-## Arrays
-
