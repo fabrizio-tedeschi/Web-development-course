@@ -1,8 +1,5 @@
 # Exercises 03.4 - String
 
->[!NOTE]
->To start a js file on your terminal you need to install nodeJS and execute the following command `node filename.js`
-
 ### A) getRepeatedChars
 
 Write a function `getRepeatedChars()` that takes two strings `s1` and `s2`. The function returns a new string `out` that
