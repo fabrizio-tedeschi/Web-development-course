@@ -20,8 +20,8 @@ Write a script that manages a market queue. A queue is an array `q = ["p1", "p2"
 the first element is the name of the first person of the queue and the last element is the last person of the queue. The script
 implements two functions:
 
-* `addToQueue(queue, user)`: that adds the user at the end of the queue
-* `serveUser(queue)`: that removes the first user from the queue
+* `addToQueue(user)`: that adds the user at the end of the queue
+* `serveUser()`: that removes the first user from the queue
 
 For each function implement the requested operation with a suitable debug message.
 
