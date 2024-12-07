@@ -11,19 +11,19 @@ let surnames = ["Doe", "Smith", "Norris", "Rose"]
 let ages = [15, 18, 25, 34]
 ```
 
-Write a function `getAllStudentsData()` that takes an `ID` and shows all data associated to the student with the id `ID`.
+Write a function `getAllStudentsData()` that takes a `searchedID` and shows all data associated to the student with the `searchedID`.
 The function returns the student position in the array. When an error occurs the function returns -1.
 
 ### B) marketQueueManager
 
-Write a function `marketQueueManager()` that manages a market queue. A queue is an array `q = ["p1", "p2", ...]` where
-the first element is the first person of the queue and the last element is the last person of the queue. The `marketQueueManager()`
-has two features:
+Write a script that manages a market queue. A queue is an array `q = ["p1", "p2", ...]` where
+the first element is the name of the first person of the queue and the last element is the last person of the queue. The script
+implements two functions:
 
 * `addToQueue(queue, user)`: that adds the user at the end of the queue
 * `serveUser(queue)`: that removes the first user from the queue
 
-For each feature implement the requested operation with a suitable debug message.
+For each function implement the requested operation with a suitable debug message.
 
 ### C) arrayFusion
 
