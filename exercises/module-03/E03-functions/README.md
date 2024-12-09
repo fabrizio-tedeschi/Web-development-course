@@ -5,6 +5,8 @@
 Write a script that asks the user a positive value `n`. The scrip asks the user `n` positive numbers and shows
 the average. Create an `average()` function to solve the exercise.
 
+---
+
 ### B) signupFields
 
 Create a webpage with fields about user data (name, surname, age, email).
@@ -26,6 +28,8 @@ The `subscribe()` function:
 Write a script that takes a numeric value and shows an alert saying if the inserted value is odd or even. Use a function
 expression to apply the value check.
 
+---
+
 ### D) generateIP
 
 An IP address identifies devices connected to a net. In IP address is composed by four numbers (between 0 an 255) divided
@@ -38,6 +42,8 @@ on the console `n` IP addresses. Use a function expression `generateIP()`.
 
 Create a page that takes two integers `b, e`. The page must show an alert with the result of `b^e`. Create a function
 `myPow()` in order to calculate the result.
+
+---
 
 ### F) perfectNumbers
 

@@ -21,6 +21,8 @@ firstValue
 3456
 ```
 
+---
+
 ### B) productProperties
 
 Write a script that creates three objects representing market products. Each product has a name and a cost. Ask the user
@@ -40,6 +42,8 @@ Print all the products in the list with all their properties.
 > Now you can require input using
 > `let myinput = prompt("Question");`
 
+---
+
 ### C) removeDuplicateSongs
 
 Write a script that removes from the following list duplicate songs. Two songs are equals when their properties are all equals.
@@ -52,6 +56,8 @@ let songs = [
     {title: "goosebumps", duration: "4:03"},
 ]
 ```
+
+---
 
 ### D) objectEquals
 
@@ -71,6 +77,8 @@ objectEquals(a, b);     //false
 objectEquals(a, b);     //false
 objectEquals(a, d);     //true
 ```
+
+---
 
 ### E) carDealer
 

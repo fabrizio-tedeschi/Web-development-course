@@ -11,6 +11,8 @@ s1 = "hey world", s2 = "home", out = "heo"
 s1 = "hello world", s2 = "home land", out = "helo d"
 ```
 
+---
+
 ### B) checkEmailManager
 
 Write a function `checkEmailManager()` that takes an email and shows the name of the email manager.
@@ -22,6 +24,8 @@ mary.rose@outlook.com --> MICROSOFT CORP.
 tim.cook@icloud.com --> APPLE INC.
 lebron.james@libero.it --> @libero.it
 ```
+
+---
 
 ### C) onlyThreeMultiples
 

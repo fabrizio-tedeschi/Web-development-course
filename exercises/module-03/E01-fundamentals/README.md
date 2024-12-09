@@ -15,6 +15,8 @@ Write script that executes the action below:
 > Search infos about `alert(), prompt(), confirm()`.
 > For data conversion use `Number(), String()`.
 
+---
+
 ### B) calculator
 
 Write a script that takes two input values `a` and `b`. The script calculates and shows with an alert messages the
@@ -27,11 +29,15 @@ results of the operation below:
 >[!TIP]
 > Search infos about `Math.ceil() and Math.floor()`.
 
+---
+
 ### C) equationSolver
 
 Write a script that takes three values `a`, `b`, `c`. These values represent coefficient of a 2nd
 degree equation. The script checks if `a != 0` and calculates the value of delta and the solutions. Show results using
 alert messages.
+
+---
 
 ### D) roulette
 

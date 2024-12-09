@@ -10,14 +10,20 @@ The script has to show the result with an alert message and also ont the browser
 
 **Constraint**: the input value series must contain only numbers between -50 and 50.
 
+---
+
 ### B) multiple
 
 Write a script that takes three values `a`, `b`, `k`, then the program print on the browser console all values between
 `a` and `b` that are multiples of `k`.
 
+---
+
 ### C) sumCyphers
 
 Write a script that takes an integer positive value `n` greater than 100. The program prints on the console each cyphers of `n`.
+
+---
 
 ### D) toDecimal
 

@@ -14,6 +14,8 @@ let ages = [15, 18, 25, 34]
 Write a function `getAllStudentsData()` that takes a `searchedID` and shows all data associated to the student with the `searchedID`.
 The function returns the student position in the array. When an error occurs the function returns -1.
 
+---
+
 ### B) marketQueueManager
 
 Write a script that manages a market queue. A queue is an array `q = ["p1", "p2", ...]` where
@@ -24,6 +26,8 @@ implements two functions:
 * `serveUser()`: that removes the first user from the queue
 
 For each function implement the requested operation with a suitable debug message.
+
+---
 
 ### C) arrayFusion
 
@@ -38,6 +42,8 @@ v1: [1, 3, 5, 7, 9]
 v2: [2, 4, 6, 8, 10]
 out: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 `
+
+---
 
 ### D) sortArray
 
