@@ -4,7 +4,7 @@
 
 Define two different objects:
  * The first object represents a `user` (that has name, surname, age, address and a list of favorites books)
- * The second object represents a `picture` (that has width, high and a list of colors)
+ * The second object represents a `picture` (that has width, height and a list of colors)
 
 Write a function `printObjectValues(obj)` that takes an object `obj` and prints all the object data using the following format:
 
