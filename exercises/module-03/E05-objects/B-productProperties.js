@@ -9,13 +9,13 @@ for (let i = 0; i < 3; i++) {
     console.log();
 }
 
-for (let i = 0; i < 3; i++) {
-    if (products[i]["cost"] < 30) {
-        products[i]["check"] = true;
+for (product of products) {
+    if (product["cost"] < 30) {
+        product["check"] = true;
     }
     else{
-        products[i]["check"] = false;
+        product["check"] = false;
     }
-
-    console.log(products[i]);
 }
+
+console.log(products);
