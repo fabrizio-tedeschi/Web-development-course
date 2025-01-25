@@ -72,8 +72,8 @@ contained in this repository. Good work!
 ### [03.5] Objects
 
 * Objects
+* Object copy and comparison
 * Objects methods and constructor
-* Object copy and conversion
 * Garbage collector
 
 > Chapter from 4.1 to 4.8 [JavaScript.info](https://javascript.info/)

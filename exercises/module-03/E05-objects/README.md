@@ -106,3 +106,48 @@ let mycar = {
 
 > [!TIP]
 > Use `Object.assign()` to add properties to cars.
+
+---
+
+### F) newsInfos
+
+You are managing three different objects that represents news, for example:
+
+```javascript
+let news = {
+  "id": 25,
+  "title": "Earthquake in California",
+  "author": "Megan Fox",
+  "content": "Yesterday a 5.2 magnitude earthquake shaked Los Angeles and...",
+  "date": "15/04/2063"
+  "time": "5:00 am"
+}
+```
+
+Create a function `printNewsInfos()` and put it into an additional object key named `info`. The function prints title, author, date and time of the news. For example, try to call `news.info()`.
+
+---
+
+### G) bankAccount
+
+A bank account could be represented using the object below:
+
+```javascript
+let account = {
+  "id": 1,
+  "IBAN": "IT000000015800FA005485296",
+  "owner": {
+    "name": "John",
+    "surname": "Doe"
+  },
+  "balance": 4322.35,
+  "currency": "euros",
+  "operations": [
+    {"type": "withdrawal", "amount": 500, "date": "15/05/2035"}
+  ]
+}
+```
+
+Write a program that allows to manage bank accounts. Each bank account, for security resons, could be created only using ther `new` operator.
+The bank provides two standard featurs for each account: `deposit(amount)` and `withdrawal(amount)`. The two featurs checks balance and executes balance changing.
+Each operation allows only amounts lower than 1000. If an operation ends succesfull it must e added to the `operation` list.
