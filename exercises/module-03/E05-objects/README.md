@@ -119,7 +119,7 @@ let news = {
   "title": "Earthquake in California",
   "author": "Megan Fox",
   "content": "Yesterday a 5.2 magnitude earthquake shaked Los Angeles and...",
-  "date": "15/04/2063"
+  "date": "15/04/2063",
   "time": "5:00 am"
 }
 ```
@@ -150,4 +150,4 @@ let account = {
 
 Write a program that allows to manage bank accounts. Each bank account, for security resons, could be created only using ther `new` operator.
 The bank provides two standard featurs for each account: `deposit(amount)` and `withdrawal(amount)`. The two featurs checks balance and executes balance changing.
-Each operation allows only amounts lower than 1000. If an operation ends succesfull it must e added to the `operation` list.
+Each operation allows only amounts lower than 1000. If an operation ends succesfull it must be added to the `operation` list.
