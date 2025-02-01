@@ -1,22 +1,31 @@
+//Calling a global function
+globalHello("John")
+
 //Defining a function with name f
-function f(param){
-    console.log("ciao " + param)
+function globalHello(param){
+    console.log("Hello " + param)
 }
 
-//Assigning the function reference to myVar
-let myVar = f;
+//Defining a function expression
+let myRef = globalHello;
 
-//Calling f using the reference in myVar 
-myVar("John");
+//Calling globalHello using the reference into myVar 
+myRef("John");
+console.log(myRef)
 
-//Short function assigment to myVar
-myVar = function() {
-    console.log("TEST")
+console.log("---------------------------------")
+
+//Defining a function expression
+myExpression = function() {
+    console.log("This is a function expression output")
 }
-myVar();
+myExpression();
+console.log(myExpression)
+
+console.log("---------------------------------")
 
 //Arrow function
-let myFunz = (p1, p2) => {
-    console.log(p1, p2)
+let myArrow = (a, b) => {
+    console.log("Sum result:", a + b)
 }
-myFunz("Hello", "World!")
+myArrow(10, 5)
