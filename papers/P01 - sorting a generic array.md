@@ -20,7 +20,7 @@ console.log("ab" < "ac")       //true
 console.log("ab" == "ac")      //false
 ```
 
-* You CAN'T compare objects using `<`, `>`, `==`. The operator `==` returns `true` if two objects have the same reference. How can an object be greather or lower than another? It depends!
+* You CAN'T compare objects using `<`, `>`, `==`. The operator `==` returns `true` if two objects have the same reference. How can an object be greater or lower than another? It depends!
 
 For example, you can compare object that represents people by name, surname or age!
 
@@ -40,7 +40,7 @@ This is a very bad idea, all the `selectionSort...()` functions are very similar
 
 ## Strategy
 
-A useful JavaScript feature consists of functions-as-value representation. In fact, you can consider the function code as a value. You can also insert the function code into a variable (using ([text](https://javascript.info/function-expressions))).
+A useful JavaScript feature consists of functions-as-value representation. In fact, you can consider the function code as a value. You can also insert the function code into a variable (using a [function expression](https://javascript.info/function-expressions)).
 
 ```javascript
 let myFunct = function(){
